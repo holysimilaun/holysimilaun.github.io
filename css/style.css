@@ -1,7 +1,7 @@
 :root {
   --margin: 2vw;
   --width: 100%;
-  --fontsize: 20px
+  --fontsize: 1em;
 }
 
 @font-face {
