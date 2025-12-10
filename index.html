@@ -1,8 +1,13 @@
 <html>
 	<head>
 		<style>
+			:root {
+				--margin: 2vw;
+				--width: 100%;
+			}
+
 			body {
-				margin: 0;
+				margin: var(--margin);
 				color: white;
 				background-color: black;
 				-webkit-touch-callout: none;
@@ -13,9 +18,8 @@
 				user-select: none;
 				letter-spacing: 1px;
 				font-size: 20px;
-				width: 100%;
+				width: calc(var(--width) - var(--margin) - var(--margin));
 				overflow-x: hidden;
-
 			}
 
 			.italic {
@@ -27,8 +31,8 @@
 			}
 
 			.block {
+				position: relative;
 				margin-bottom: 2em;
-				width: 100%;
 			}
 
 			.paragraph {
@@ -44,6 +48,7 @@
 			}
 
 		</style>
+
 	</head>
 	<body>
 		<div class="block" id="title">
@@ -70,26 +75,33 @@
 		</div>
 
 		<div class="block" id="releases">
-			<div>Atlas (the 12th ribbon), 2026
-			<div>Atlas (there is nothing here yet),2025</div>
-			<div>Atlas (where the stork took its final flight), 2025</div>
-			<div>To See Forever, 2025</div>
-			<div>Lapse (folder) - with espect, 2024</div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
+			<div class="block">
+				<div>Atlas (the 12th ribbon) - 2026</div>
+				<div>Atlas (there is nothing here yet) -2025</div>
+				<div>Atlas (where the stork took its final flight) - 2025</div>
+				<div>To See Forever - 2025</div>
+				<div>Radicor al flort, espert on'ill il erb, aor Raetia - 2024</div>
+				<div>Arcaskathel - 2022</div>
+				<div>Live in Rome 2021 - 2022</div>
+				<div>Ansatz - 2021</div>
+				<div>En To Pan - 2018</div>
+			</div>
+			<div class="block">
+				<div>Lapse (folder) <span class="italic">with espect</span> - 2024</div>
+				<div>Negative Space - 2021</div>
+				<div>A Lecture for Hysenis - 2021</div>
+				<div>Hegenrax - 2019</div>
+				<div>Kon-Kong -<span class="italic">with Coeden</span> - 2018</div>
+				<div>Apt-get - 2017</div>
+				<div>Infdev/Dead Patterns - 2017</div>
+			</div>
 		</div>
 
 		<div class="block" id="shows"></div>
-
+		
+		
+		<!-- JS/JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/init.js"></script>
 	</body>
 </html>
