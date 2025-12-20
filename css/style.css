@@ -1,7 +1,7 @@
 :root {
   --margin: 10vw;
   --width: 100%;
-  --fontsize: 1em;
+  --fontsize: 1.25em;
 }
 
 @font-face {
@@ -93,6 +93,6 @@ a:active {
 #top {
   position: fixed;
   background-color: black;
-  right: var(--margin);
-  bottom: var(--margin);
+  right: calc(var(--margin) / 2);
+  bottom: calc(var(--margin) / 2);
 }
