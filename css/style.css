@@ -73,6 +73,10 @@ a:active {
 .nodecorations {
   text-decoration: none !important;
 }
+
+.halfwidth {
+  width: 50%;
+}
 /* ID */
 
 #title {
@@ -80,7 +84,6 @@ a:active {
 }
 
 #intro {
-  width: 50%;
 }
 
 #releases {
