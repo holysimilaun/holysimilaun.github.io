@@ -96,6 +96,6 @@ a:active {
 #top {
   position: fixed;
   background-color: black;
-  right: calc(var(--margin) / 2);
-  bottom: calc(var(--margin) / 2);
+  right: calc(var(--margin) / 4);
+  bottom: calc(var(--margin) / 4);
 }
