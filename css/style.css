@@ -144,7 +144,7 @@ a:active {
 	clip-path:polygon(0 0,100% 0,100% 100%,0 100%);
 }
 
-#fixed-top {
+#sticky-top {
 	/* stick to the bottom */
 	position: sticky;
 	bottom: 0;
