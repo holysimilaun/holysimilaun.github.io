@@ -94,6 +94,15 @@ a:active {
 	height: auto;
 	display: block;
 }
+
+.block-left {
+	margin-right: 10px;
+}
+
+.block-right {
+	margin-left: 10px;
+}
+
 /* ID */
 #container {
 	padding: var(--margin);
