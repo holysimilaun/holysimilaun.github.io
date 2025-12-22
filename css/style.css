@@ -98,6 +98,7 @@ a:active {
 #container {
 	padding: var(--margin);
 	width: 100%;
+	position: relative;
 }
 
 #title {
@@ -147,10 +148,6 @@ a:active {
 #sticky-top {
 	/* stick to the bottom */
 	position: sticky;
-	bottom: 0;
-
-	background: red;
-	padding: 15px;
-	color: #fff;
-	text-align: center;
+	right: calc(var(--margin) / 4);
+	bottom: calc(var(--margin) / 4);
 }
