@@ -66,6 +66,7 @@ a:active {
 .block {
 	position: relative;
 	padding-top: var(--margin);
+	z-index: 1;
 }
 
 .mg-left {
@@ -148,6 +149,7 @@ a:active {
 	flex-direction:column;
 	justify-content:flex-end;
 	clip-path:polygon(0 0,100% 0,100% 100%,0 100%);
+	z-index: 0;
 }
 
 #sticky-top {
