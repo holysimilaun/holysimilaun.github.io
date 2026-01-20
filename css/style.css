@@ -157,8 +157,16 @@ a:active {
     text-align: right;
 }
 
+#releases > a {
+	text-decoration: none;
+}
+
+/* mobile */
+
 @media (max-width: 1000px) {
 	#sticky-top {
 		font-size: calc(var(--fontsize) * 2);
 	}
 }
+
+
