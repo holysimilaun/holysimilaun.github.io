@@ -133,9 +133,6 @@ a:active {
 }
 
 
-@media (max-width: 1000px) {
-
-}
 
 
 /* #testarea */
@@ -158,4 +155,10 @@ a:active {
     padding-bottom: calc(var(--margin) / 4);
     bottom: 0;
     text-align: right;
+}
+
+@media (max-width: 1000px) {
+	#sticky-top {
+		font-size: calc(var(--fontsize) * 2);
+	}
 }
