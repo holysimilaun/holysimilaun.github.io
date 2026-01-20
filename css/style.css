@@ -11,6 +11,8 @@
 
 html {
 	scroll-behavior: smooth;
+	font-family: "SuisseIntlLight";
+
 }
 
 body {
@@ -27,7 +29,6 @@ body {
 	font-size: var(--fontsize);
 	width: calc(var(--width) - var(--margin) - var(--margin));
 	overflow-x: hidden;
-	font-family: SuisseIntlLight;
 }
 
 a:link {
